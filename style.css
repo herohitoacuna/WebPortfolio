@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn{
+    background-color: #9BA3EB;
+    border-radius: 25px;
+}
+
+.btn:hover{
+    background-color: #242F9B; 
+}
+
+#navigation{
+    background-color: rgb(0, 0, 0, 0.8);
+}
+
+#navigation img{
+    height: 40px;
+    width: 50%;
+    margin-right: -0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+#navigation a:hover{
+    color: grey;
+}
+
+#home{
+    background-image: url(home_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.img{
+    height: 90%;
+    width: 60%;
+    border-radius: 30px;
+    border: 1px solid black;
+}
+
+.button {
+    height: 100%;
+    background-color: #90e0ef;
+    color: Black;
+    background-size: 100% 100%;
+    border-radius: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+}
+
+#follow_us a{
+    text-decoration: none;
+    color: black;
+}
+
+#contacts + a{
+    color: black;
+    text-decoration: none;
+}
+
+#contacts a:hover{
+    color: grey;
+}
+
+footer p{
+    margin: 0;
+}
+
+/* xsmall Mobile Phones */
+@media screen and (max-width: 576px){
+
+    #navigation{
+        font-size: 1rem;
+    }
+
+    #navigation #logo{
+        font-size: 1.2rem;
+    }
+
+    .h1{
+        text-transform: uppercase;
+        font-size: 2.75rem;
+    }
+
+    #home{
+        height: 65vh;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        text-shadow: #0000;
+    }
+
+    #home div{
+        text-align: center;
+    }
+
+    #home button{
+        font-size: 1.5rem;
+        font-weight: bold;
+        padding: 7px 3rem;
+        position: relative;
+        top: 5rem;
+    }
+
+    #about img{ 
+        display: grid;
+        place-items: center;
+    }
+
+    #contacts{
+        margin-bottom: 4rem;
+    }
+
+    #contacts #follow_us{
+        margin-top: 2rem;
+    }
+
+    footer{
+        margin-bottom: 0px;
+    }
+}
+
+/* small mobile phones */
+@media  all and (min-width: 576.98px) {
+
+    
+    #navigation{
+        font-size: 1rem;
+    }
+
+    #navigation #logo{
+        font-size: 1.2rem;
+    }
+
+    .h1{
+        text-transform: uppercase;
+        font-size: 3rem;
+    }
+
+    #home{
+        height: 65vh;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        text-shadow: #0000;
+    }
+
+    #home div{
+        text-align: center;
+    }
+
+    #home button{
+        font-size: 1.5rem;
+        font-weight: bold;
+        padding: 7px 3rem;
+        position: relative;
+        top: 5rem;
+    }
+
+    #about img{ 
+        display: grid;
+        place-items: center;
+    }
+
+    #contacts{
+        margin-bottom: 4rem;
+    }
+
+    #contacts #follow_us{
+        margin-top: 2rem;
+    }
+}
+
+/* tablets */
+@media all and (min-width: 768px){
+
+    .h1{
+        text-transform: uppercase;
+        font-size: 3rem;
+    }
+
+    #navigation #logo{
+        font-size: 1.75rem;
+    }
+
+    #home{
+        height: 75vh;
+        display: grid;
+        justify-content: left;
+        padding-left: 5rem;
+        align-items: center;
+        text-shadow: #0000;
+    }
+
+    #home div{
+        text-align: left;
+        font-size: 10rem;
+    }
+
+    #home .btn{
+        font-size: 1rem;
+    }
+
+    #contacts{
+        margin-bottom: 4rem;
+    }
+
+    #contacts #follow_us{
+        margin-top: 2rem;
+    }
+}
+
+/* desktop */
+@media all and (min-width: 992px){
+
+    .h1{
+        text-transform: uppercase;
+        font-size: 10rem;
+    }
+
+    #navigation #logo{
+        font-size: 2rem;
+    }
+    #home{
+        height: 100vh;
+        display: grid;
+        justify-content: left;
+        padding-left: 5rem;
+        align-items: center;
+        text-shadow: #0000;
+    }
+
+    #home div{
+        text-align: left;
+        font-size: 10rem;
+    }
+
+    #home h1{
+        font-size: 2rem;
+    }
+
+    #home button{
+        font-size: 1.5rem;
+        font-weight: bold;
+        padding: 7px 3rem;
+        position: relative;
+        top: 5rem;
+    }
+
+}
+
+/* large desktop */
+@media all and (min-width: 1200px){
+
+    .h1{
+        text-transform: uppercase;
+        font-size: 10rem;
+    }
+
+    #navigation #logo{
+        font-size: 2rem;
+    }
+    #home{
+        height: 100vh;
+        display: grid;
+        justify-content: left;
+        padding-left: 5rem;
+        align-items: center;
+        text-shadow: #0000;
+    }
+
+    #home div{
+        text-align: left;
+        font-size: 10rem;
+    }
+
+    #home h1{
+        font-size: 2rem;
+    }
+
+    #home button{
+        font-size: 1.5rem;
+        font-weight: bold;
+        padding: 7px 3rem;
+        position: relative;
+        top: 5rem;
+    }
+
+}
+
